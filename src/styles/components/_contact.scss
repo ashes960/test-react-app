@@ -1,0 +1,42 @@
+.para_container {
+    font-size: 1.5rem;
+}
+
+.contact-us-form {
+    background: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: -1px 0px 19px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    padding: 2rem;
+    background: rgb(229, 248, 232);
+}
+
+.contact h1 {
+    font-style: italic;
+}
+
+.contact p {
+    font: medium arial;
+}
+
+.contact-us {
+    background: rgb(252, 251, 223);
+}
+
+#frm_contact div {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #3c2f5c;
+}
+
+#frm_contact input {
+    line-height: 24px;
+    padding: 10px;
+}

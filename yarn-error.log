@@ -1,0 +1,70 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:125850:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1075:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  {
+    "name": "test-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "author": "Ashes Ranjan Naskar",
+    "license": "ISC",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "6.25.0",
+      "babel-loader": "7.1.1",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "css-loader": "^3.0.0",
+      "live-server": "^1.2.1",
+      "node-sass": "^4.12.0",
+      "normalize.css": "^8.0.1",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "react-modal": "^3.8.2",
+      "react-router-dom": "^5.0.1",
+      "sass-loader": "^7.1.0",
+      "style-loader": "^0.23.1",
+      "validator": "^11.1.0",
+      "webpack": "^4.35.2",
+      "webpack-dev-server": "^3.7.2"
+    },
+    "devDependencies": {
+      "webpack-cli": "^3.3.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

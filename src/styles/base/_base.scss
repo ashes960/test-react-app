@@ -1,0 +1,53 @@
+body {
+    background: rgb(239, 251, 251);
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+}
+
+em {
+    color: red;
+}
+
+textarea {
+    width: 22rem;
+    height: 9rem;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline;
+}
+
+.nav {
+    display: inline;
+    float: right;
+}
+
+.nav a {
+    color: #666666;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+a.is-active {
+    color: #2b73c8;
+    font-weight: normal;
+}
+
+a:hover {
+    color: green;
+}
